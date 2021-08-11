@@ -58,7 +58,7 @@ def agenda_modalidade(update: Update, context: CallbackContext) -> None:
 def main() -> None:
     """Start the bot."""
     # Create the Updater and pass it your bot's token.
-    updater = Updater("1938531608:AAFMj4pfuucj4t9Yg6uh14AR6J07cz3sRxg")
+    updater = Updater(token)
 
     # 
     # arquivo = open("token.txt")
